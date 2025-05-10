@@ -2,49 +2,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patmart Sports</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patmart Clothing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: #f4f4f4; color: #333; }
+    header, footer { background: #28a745; color: white; text-align: center; padding: 20px; }
+    .products { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+    .product-card { background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin: 10px; width: 250px; padding: 15px; text-align: center; }
+    .product-card img { width: 100%; height: 200px; object-fit: cover; border-radius: 5px; }
+    .product-card h3 { margin: 10px 0 5px; }
+    .product-card p { margin: 5px 0; }
+    .product-card a { display: inline-block; margin-top: 10px; padding: 8px 15px; background: #28a745; color: white; text-decoration: none; border-radius: 4px; }
+    .product-card a:hover { background: #218838; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Patmart Sports</h1>
-        <p>Tailoring | Shoes | Uniforms | Tracksuits | T-shirt Printing</p>
-        <div class="buttons">
-            <a href="#products">Shop Now</a>
-            <a href="https://wa.me/254726627044">Contact Us on WhatsApp</a>
-        </div>
-    </header>
-
-    <section id="products" class="products">
-        <h2>Our Products</h2>
-        <div class="product-grid">
-            <div class="product">
-                <img src="images/suit1.jpg" alt="Dark Suit">
-                <p>Classic Suit</p>
-            </div>
-            <div class="product">
-                <img src="images/suit2.jpg" alt="Sky Blue Suit">
-                <p>Sky Blue Suit</p>
-            </div>
-            <div class="product">
-                <img src="images/tracksuit.jpg" alt="Tracksuit">
-                <p>Custom Tracksuit</p>
-            </div>
-            <div class="product">
-                <img src="images/uniform.jpg" alt="Uniform">
-                <p>School Uniform</p>
-            </div>
-            <div class="product">
-                <img src="images/shoes.jpg" alt="School Shoes">
-                <p>School Shoes</p>
-            </div>
-            <div class="product">
-                <img src="images/printing.jpg" alt="T-Shirt Printing">
-                <p>T-Shirt Printing</p>
-            </div>
-        </div>
-    </section>
+  <header>
+    <h1>Patmart Clothing</h1>
+    <p>Suits, School Uniforms, Shoes, Vitenge & More</p>
+  </header>
+  <section class="products">
+    <div class="product-card">
+      <img src="images/suit.jpg" alt="Suit">
+      <h3>Suit</h3><p>KSh 5000</p>
+      <a href="https://wa.me/254726627044?text=I'm%20interested%20in%20buying%20a%20Suit">Buy on WhatsApp</a>
+    </div>
+    <div class="product-card">
+      <img src="images/tracksuit.jpg" alt="Track Suit">
+      <h3>Track Suit</h3><p>KSh 1200</p>
+      <a href="mailto:matipatrick31@gmail.com?subject=Track Suit Order&body=I would like to order a Track Suit">Order by Email</a>
+    </div>
+    <div class="product-card">
+      <img src="images/shirt.jpg" alt="Shirt">
+      <h3>Shirt</h3><p>KSh 1500</p>
+      <a href="https://wa.me/254726627044?text=I%20want%20to%20buy%20a%20Shirt">Buy on WhatsApp</a>
+    </div>
+    <div class="product-card">
+      <img src="images/shirtsuit.jpg" alt="Shirt Suit">
+      <h3>Shirt Suit</h3><p>KSh 4000</p>
+      <a href="mailto:matipatrick31@gmail.com?subject=Shirt Suit Order&body=Please reserve a Shirt Suit for me">Order by Email</a>
+    </div>
+    <div class="product-card">
+      <img src="images/shoes.jpg" alt="Shoes">
+      <h3>Shoes</h3><p>KSh 1000</p>
+      <a href="https://wa.me/254726627044?text=I%20want%20to%20buy%20Shoes">Buy on WhatsApp</a>
+    </div>
+    <div class="product-card">
+      <img src="images/tshirt_printing.jpg" alt="T-Shirt Printing">
+      <h3>T-Shirt Printing</h3><p>From KSh 200</p>
+      <a href="mailto:matipatrick31@gmail.com?subject=T-shirt Printing&body=I need custom t-shirt printing services">Order by Email</a>
+    </div>
+    <div class="product-card">
+      <img src="images/embroidery.jpg" alt="Embroidery">
+      <h3>Embroidery Design</h3><p>From KSh 200</p>
+      <a href="https://wa.me/254726627044?text=I%20need%20embroidery%20designs">Buy on WhatsApp</a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Patmart Clothing. Contact us on WhatsApp 0726627044 or email matipatrick31@gmail.com</p>
+  </footer>
 </body>
 </html>
