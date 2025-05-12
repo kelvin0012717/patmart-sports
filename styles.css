@@ -135,3 +135,15 @@ footer {
     align-items: center;
   }
 }
+
+.favorited i {
+  color: red;
+}
+
+#about, #contact {
+  padding: 2rem;
+  text-align: center;
+  background: #fff;
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+}

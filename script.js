@@ -12,3 +12,10 @@
    });
    
    
+
+document.querySelectorAll('.favorite-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('favorited');
+    alert("Added to favorites!");
+  });
+});
