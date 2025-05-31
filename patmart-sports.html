@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patmart Fashion - Quality Clothing & Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f4f4; font-family: Arial, sans-serif; }
+        .hero-section {
+            background: linear-gradient(to right, #0d6efd, #6610f2);
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+        .product-section, .service-section {
+            background-color: #ffffff;
+            padding: 60px 0;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Patmart Fashion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="hero-section">
+    <div class="container">
+        <h1 class="display-4">Dress to Impress with Patmart Fashion</h1>
+        <p class="lead">Quality suits, shirts, and printing services at unbeatable prices.</p>
+    </div>
+</header>
+
+<section id="products" class="product-section">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Clothing Products</h2>
+        <div class="row g-4">
+            <!-- Each product card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="suit.jpg" class="card-img-top" alt="Suit">
+                    <div class="card-body">
+                        <h5 class="card-title">Suit</h5>
+                        <p class="card-text">Elegant and stylish for every occasion.</p>
+                        <p><b>Ksh 5,000</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20a%20suit" class="btn btn-primary w-100">Buy on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="tracksuit.jpg" class="card-img-top" alt="Track suit">
+                    <div class="card-body">
+                        <h5 class="card-title">Track Suit</h5>
+                        <p class="card-text">Comfortable and sporty for daily wear.</p>
+                        <p><b>Ksh 1,200</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20a%20track%20suit" class="btn btn-primary w-100">Buy on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shirt.jpg" class="card-img-top" alt="Shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Shirt</h5>
+                        <p class="card-text">Smart casual for work or outings.</p>
+                        <p><b>Ksh 1,500</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20a%20shirt" class="btn btn-primary w-100">Buy on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shirtsuit.jpg" class="card-img-top" alt="Shirt Suit">
+                    <div class="card-body">
+                        <h5 class="card-title">Shirt Suit</h5>
+                        <p class="card-text">Classic combo, perfect for business.</p>
+                        <p><b>Ksh 4,000</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20a%20shirt%20suit" class="btn btn-primary w-100">Buy on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="shoes.jpg" class="card-img-top" alt="School Leather Shoes">
+                    <div class="card-body">
+                        <h5 class="card-title">School Leather Shoes</h5>
+                        <p class="card-text">Durable and formal footwear.</p>
+                        <p><b>Ksh 1,000</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20school%20leather%20shoes" class="btn btn-primary w-100">Buy on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="polo.jpg" class="card-img-top" alt="Polo T-Shirt">
+                    <div class="card-body">
+                        <h5 class="card-title">Polo T-Shirt</h5>
+                        <p class="card-text">Stylish and comfortable for everyday wear.</p>
+                        <p><b>Ksh 550</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20a%20polo%20t-shirt" class="btn btn-primary w-100">Buy on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="services" class="service-section">
+    <div class="container">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Embroidery</h5>
+                        <p class="card-text">Professional embroidery on all types of fabrics.</p>
+                        <p><b>Ksh 250</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20embroidery%20services" class="btn btn-success">Book on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">T-Shirt Printing</h5>
+                        <p class="card-text">Custom prints for events, brands, and more.</p>
+                        <p><b>Ksh 200</b></p>
+                        <a href="https://wa.me/254745701193?text=I'm%20interested%20in%20t-shirt%20printing" class="btn btn-success">Book on WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Patmart Fashion. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
